@@ -5,4 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 img=io.imread('C:\\Users\\lenovo\\PycharmProjects\\wangyy\\roi.jpg',as_gray=True)
 
-from
+img2=io.imread('C:\\Users\\lenovo\\PycharmProjects\\wangyy\\roi.jpg',as_gray=True)
+
+
+img3=np.array(img2).astype(float)
