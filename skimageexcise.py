@@ -5,4 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 img=io.imread('C:\\Users\\lenovo\\PycharmProjects\\wangyy\\roi.jpg',as_gray=True)
 
-img_resize = cv2.resize(img,(64,64))
+img2=io.imread('C:\\Users\\lenovo\\PycharmProjects\\wangyy\\roi.jpg',as_gray=True)
+
+
+img3=np.array(img2).astype(float)
